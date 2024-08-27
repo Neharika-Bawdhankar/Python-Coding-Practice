@@ -1,0 +1,7 @@
+def printdivisors(num):
+    for i in range(1,num+1):
+        if num % i ==0:
+            print("Number is divisible by",i)
+            
+num = int(input("Enter Number:"))
+printdivisors(num)
